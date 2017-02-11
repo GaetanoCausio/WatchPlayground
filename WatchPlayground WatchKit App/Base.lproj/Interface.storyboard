@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="yTd-n5-gkg">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Watch Test Controller-->
+        <scene sceneID="t9o-Nu-Cym">
+            <objects>
+                <controller id="yTd-n5-gkg" customClass="WatchTestController" customModule="WatchPlayground_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="iPhone counter" id="8tl-XA-3lR"/>
+                        <label alignment="center" text="0" id="gPe-b9-c7n">
+                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                            <variation key="device=watch42mm">
+                                <fontDescription key="font" type="system" weight="semibold" pointSize="24"/>
+                            </variation>
+                        </label>
+                        <label alignment="center" text="Watch counter" textAlignment="center" id="U9e-5W-xdP"/>
+                        <label alignment="center" text="0" id="Bwf-Kc-SV2">
+                            <color key="textColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                            <variation key="device=watch42mm">
+                                <fontDescription key="font" type="system" weight="semibold" pointSize="24"/>
+                            </variation>
+                        </label>
+                        <group width="1" alignment="center" verticalAlignment="bottom" spacing="12" id="DYC-zd-4xa">
+                            <items>
+                                <button width="60" alignment="center" title="start" id="xha-nV-YSd">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="startStopIPhoneButton" destination="yTd-n5-gkg" id="8cu-rG-zQr"/>
+                                    </connections>
+                                </button>
+                                <button width="60" alignment="center" title="start" id="71E-96-3Fa">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="startStopWatchButton" destination="yTd-n5-gkg" id="WM5-lB-E8d"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="iPhoneCounterLabel" destination="gPe-b9-c7n" id="ATC-HK-gct"/>
+                        <outlet property="startStopIPhoneButtonLabel" destination="xha-nV-YSd" id="gmT-Bl-NlM"/>
+                        <outlet property="startStopWatchButtonLabel" destination="71E-96-3Fa" id="Swe-Q5-1tk"/>
+                        <outlet property="watchCounterLabel" destination="Bwf-Kc-SV2" id="D5e-9S-lLz"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--iPhone Test Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="IPhoneTestController" customModule="WatchPlayground" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rKS-H7-kTL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="GqL-wS-3rQ">
+                                <rect key="frame" x="93.5" y="39" width="135.5" height="402"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="u6L-Bu-Da6">
+                                        <rect key="frame" x="0.0" y="0.0" width="135.5" height="151"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone counter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CmV-Dq-4wL">
+                                                <rect key="frame" x="0.0" y="0.0" width="135.5" height="24"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="UNp-He-IJx">
+                                                <rect key="frame" x="27.5" y="34" width="80" height="117"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcX-t1-Tbn">
+                                                        <rect key="frame" x="26" y="0.0" width="28.5" height="53"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="44"/>
+                                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ozv-LC-dwh">
+                                                        <rect key="frame" x="0.0" y="73" width="80" height="44"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="44" id="T34-vY-p1w"/>
+                                                            <constraint firstAttribute="width" constant="80" id="UYD-Jb-e5v"/>
+                                                        </constraints>
+                                                        <state key="normal" title="start">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="startStopIPhoneButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7KU-Su-juP"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <variation key="heightClass=compact" axis="horizontal"/>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="U2r-9Y-bBs">
+                                        <rect key="frame" x="2.5" y="251" width="130.5" height="151"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yN0-JW-FkC">
+                                                <rect key="frame" x="25" y="0.0" width="80" height="117"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sk3-hQ-DRU">
+                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="44"/>
+                                                        <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="44" id="8jL-M2-uhh"/>
+                                                            <constraint firstAttribute="width" constant="80" id="nEM-yC-G1o"/>
+                                                        </constraints>
+                                                        <state key="normal" title="start">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="startStopWatchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9sK-XT-qk4"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shM-sW-VmT">
+                                                        <rect key="frame" x="26" y="64" width="28.5" height="53"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="44"/>
+                                                        <color key="textColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <variation key="heightClass=compact" axis="horizontal"/>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch counter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIf-Il-kwl">
+                                                <rect key="frame" x="0.0" y="127" width="130.5" height="24"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBS-AG-a1b">
+                                <rect key="frame" x="120" y="218" width="80" height="44"/>
+                                <color key="backgroundColor" red="0.70913938489999995" green="0.059753578660000001" blue="0.048183400440000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="JIy-p5-aMr"/>
+                                    <constraint firstAttribute="width" constant="80" id="M0v-LR-GC8"/>
+                                    <constraint firstAttribute="height" constant="44" id="U5q-HM-LES"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="sHk-Jd-qeb"/>
+                                </constraints>
+                                <state key="normal" title="reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UDo-AJ-a6a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uBS-AG-a1b" firstAttribute="centerY" secondItem="rKS-H7-kTL" secondAttribute="centerY" id="8pi-yg-zpd"/>
+                            <constraint firstItem="GqL-wS-3rQ" firstAttribute="centerY" secondItem="rKS-H7-kTL" secondAttribute="centerY" id="VFu-b5-otU"/>
+                            <constraint firstItem="uBS-AG-a1b" firstAttribute="centerX" secondItem="rKS-H7-kTL" secondAttribute="centerX" id="dvn-yt-pMW"/>
+                            <constraint firstItem="GqL-wS-3rQ" firstAttribute="centerX" secondItem="rKS-H7-kTL" secondAttribute="centerX" constant="1" id="hH7-lE-52o"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="iPhoneCounterLabel" destination="QcX-t1-Tbn" id="v0I-Fp-cNZ"/>
+                        <outlet property="startStopIPhoneButtonLabel" destination="Ozv-LC-dwh" id="HZG-Xk-yO7"/>
+                        <outlet property="startStopWatchButtonLabel" destination="sk3-hQ-DRU" id="887-Xx-c4r"/>
+                        <outlet property="watchCounterLabel" destination="shM-sW-VmT" id="ClT-bm-hLv"/>
+                        <outlet property="watchMessageLabel" destination="SIf-Il-kwl" id="XLF-Uj-N9h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
