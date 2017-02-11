@@ -94,7 +94,7 @@
 		3827DD3A1E3099DD008E1869 /* IPhoneTestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPhoneTestController.swift; sourceTree = "<group>"; };
 		3827DD3C1E3099EE008E1869 /* WatchTestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchTestController.swift; sourceTree = "<group>"; };
 		3827DD3E1E3122FF008E1869 /* UITESTS.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = UITESTS.md; sourceTree = "<group>"; };
-		3852868F1E4BCFA000BAB46C /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		3852868F1E4BCFA000BAB46C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		3827DCE81E309707008E1869 = {
 			isa = PBXGroup;
 			children = (
-				3852868F1E4BCFA000BAB46C /* LICENSE.md */,
+				3852868F1E4BCFA000BAB46C /* LICENSE */,
 				3827DD381E309933008E1869 /* README.md */,
 				3827DD3E1E3122FF008E1869 /* UITESTS.md */,
 				3827DD2B1E309831008E1869 /* Shared */,
