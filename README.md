@@ -12,6 +12,8 @@ Tests on real devices are preferred. Have a look at file *UITESTS.md*, you'll fi
 
 For the connectivity I used the *sendMessage* and *didReceiveMessage* methods of the WCSession class, as these methods are most suitable for immediate communication.
 
+Please note that the *sendMessage* method is executed asynchronously on a background thread, so if you need to update the UI as a result of this method then you need to work on the Main thread.
+
 ## Usage
 Open the project in Xcode, eventually specify the logging levels in file *LogManager.swift* class, then build and run on an Apple Watch paired with an iPhone.
 
