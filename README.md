@@ -4,7 +4,7 @@
 [![Shippable](https://img.shields.io/badge/language-swift-orange.svg)]()
 [![Shippable](https://img.shields.io/badge/build-passing-green.svg)]()
 [![Shippable](https://img.shields.io/badge/tests-passing-green.svg)]()
-[![Shippable](https://img.shields.io/badge/license-MIT-blue.svg)]()
+[![Shippable](https://img.shields.io/badge/license-apache%202.0-blue.svg)]()
 
 A sample project that demonstrate the bidirectional connectivity interactions between an iPhone and an Apple Watch.   
 
