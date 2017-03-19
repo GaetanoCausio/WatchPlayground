@@ -19,7 +19,6 @@ Open the project in Xcode, eventually specify the logging levels in file *LogMan
 
 ## What's Next
 Implementation of a better design architecture: Model-View-ViewModel (MVVM) in combination of Protocol Oriented Programming (POP) .
-
 <BR /><BR />
 ***
 *A continuos learning path where passion is the drive.*
