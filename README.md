@@ -1,10 +1,10 @@
 # WatchPlayground
 
-[![Shippable](https://img.shields.io/badge/platform-iOS%20%7C%20WatchOS-lightgrey.svg)]()
+[![Shippable](https://img.shields.io/badge/platform-iOS%20%7C%20WatchOS-blue.svg)]()
 [![Shippable](https://img.shields.io/badge/language-swift-orange.svg)]()
 [![Shippable](https://img.shields.io/badge/build-passing-green.svg)]()
 [![Shippable](https://img.shields.io/badge/tests-passing-green.svg)]()
-[![Shippable](https://img.shields.io/badge/license-apache%202.0-blue.svg)]()
+[![Shippable](https://img.shields.io/badge/license-apache%202.0-lightgrey.svg)]()
 
 A sample project that demonstrate the bidirectional connectivity interactions between an iPhone and an Apple Watch.   
 
