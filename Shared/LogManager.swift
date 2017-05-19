@@ -171,7 +171,7 @@ class LogManager: NSObject {
         #if os(iOS)
             LogManager.display(message: "WC isPaired=\(session.isPaired)", forTypes: [.Data,.WatchConnection], file: file, function: function, line: line)
             LogManager.display(message: "WC isWatchAppInstalled=\(session.isWatchAppInstalled)", forTypes: [.Data,.WatchConnection], file: file, function: function, line: line)
-            LogManager.display(message: "WC watchDirectoryURL=\(session.watchDirectoryURL)", forTypes: [.Data,.WatchConnection], file: file, function: function, line: line)
+            LogManager.display(message: "WC watchDirectoryURL=\(String(describing: session.watchDirectoryURL))", forTypes: [.Data,.WatchConnection], file: file, function: function, line: line)
         #endif
 
         if session.activationState == .activated {
