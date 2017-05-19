@@ -22,3 +22,4 @@ Implementation of a better design architecture: Model-View-ViewModel (MVVM) in c
 <BR /><BR />
 ***
 *A continuos learning path where passion is the drive.*
+
