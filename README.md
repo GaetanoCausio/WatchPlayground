@@ -1,6 +1,6 @@
 # WatchPlayground
 
-[![Shippable](https://img.shields.io/badge/platform-iOS%20WatchOS-blue.svg)]()
+[![Shippable](https://img.shields.io/badge/platform-iOS%20watchOS-blue.svg)]()
 [![Shippable](https://img.shields.io/badge/language-swift-orange.svg)]()
 [![Shippable](https://img.shields.io/badge/build-passing-green.svg)]()
 [![Shippable](https://img.shields.io/badge/tests-passing-green.svg)]()
